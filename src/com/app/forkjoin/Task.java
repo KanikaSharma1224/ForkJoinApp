@@ -19,7 +19,6 @@ public class Task extends RecursiveAction {
 	@Override
 	protected void compute() {
 		if ((last - first) < 10)
-
 		{
 			updatePrices();
 		} else {
